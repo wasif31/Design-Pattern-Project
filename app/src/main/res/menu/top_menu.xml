@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title=""
+        android:id="@+id/add_button"
+        android:icon="@drawable/ic_add_circle"
+        android:titleCondensed="Add Post"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_Home"
+        android:title="Home"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_Movie_news"
+        android:title="Movie News"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_setting"
+        android:title="Setting"
+        app:showAsAction="never"/>
+
+</menu>
